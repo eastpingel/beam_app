@@ -1,0 +1,8 @@
+# Prompt log
+
+- Asked to set up the project folders and document the layout. Created the requested root-level scaffold and numbered folders with README files; this setup worked.
+- Asked for a review of the initial beam-app specification and recommendations, without writing code. Reviewed `spec.md` and provided design, calculation, beam-property, and validation recommendations; no application code or specification content was changed.
+- Asked to add specific beam lists and recommended checks to the specification, and to pose unresolved questions with options without writing code. Updated `spec.md` with proposed steel W-shapes and dimensional lumber lists, property-data requirements, checks, validation cases, and an open-questions block; no code was written.
+- Chose the v1 scope options for beam categories, data, loading, self-weight, deflection, checks, design method, and validation. Updated `spec.md` to record those choices and the remaining beam-data decisions; no code was written.
+- Chose a curated W-shape list, multiple lumber species/grades, both LVL and glulam, and source selection before data entry; asked me to choose quality sources. Added proposed starter beam lists and authoritative AISC, AWC, and APA references to `spec.md`; no code was written.
+- Asked to start building the app. Replaced the root `index.html` placeholder with the single-file beam analyzer, including beam/support/load inputs, diagrams, serviceability and user-capacity checks, and explicit data/scope warnings. Browser checks matched the W12x26 baseline (10 kip reactions, 10 kip max shear, 50 kip-ft max moment, 0.609 in deflection), point-load and cantilever cases, self-weight/live-vs-total behavior, invalid-input handling, and mobile layout; no console errors observed.
